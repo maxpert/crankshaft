@@ -1,0 +1,16 @@
+- chain: static_chain
+  of:
+    - plugin: strip_path
+      config:
+        prefix: /static
+    - plugin: static_content
+      config:
+        root: .
+- chain: proxy_chain
+  of:
+    - plugin: strip_path
+      config:
+        prefix: /proxy
+    - plugin: reverse_proxy
+      config:
+        urls: http://requestbin.net/r/1hwiqtx1/, http://requestbin.net/r/u3df1hu3/

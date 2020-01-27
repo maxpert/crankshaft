@@ -1,0 +1,4 @@
+- path: /static
+  invoke: static_chain
+- path: /proxy
+  invoke: proxy_chain

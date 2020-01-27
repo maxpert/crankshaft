@@ -1,0 +1,3 @@
+strip_path: bin/modules/strip_path.so
+static_content: bin/modules/static_content.so
+reverse_proxy: bin/modules/reverse_proxy.so
