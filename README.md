@@ -84,10 +84,16 @@ bring up a server, and hitting `http://localhost:6060/crankshaft` will return `G
 
 # Yet to implement
 
- [ ] Github hooks
- [ ] Test case coverage
- [ ] Logging story
- [ ] Documentation 
- [ ] Zero downtime, hot reload
- [ ] TLS + HTTP2 support (partially present)
- [ ] Control pane
+- [X] Proof-of-concept base server
+- [ ] Test case coverage
+- [ ] Zero downtime, hot reload
+- [X] `static_content` plugin
+- [X] `strip_path` plugin
+- [X] `reverse_proxy` plugin
+- [ ] Github hooks
+- [ ] `markdown_server` plugin
+- [ ] `fast_cgi` plugin
+- [ ] Logging story
+- [ ] Documentation 
+- [ ] TLS + HTTP2 support (partially present)
+- [ ] Control pane
